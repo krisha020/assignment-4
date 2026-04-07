@@ -1,0 +1,49 @@
+/* 
+	Name: Krisha Patel
+	File: style.css
+	Date: 06 April 2026
+	Description: resume using html, css, js. 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.wrapper {
+	width:80%;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+header {
+	text-align: center;
+	padding: 20px;
+}
+.profile{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	margin:20px 0;
+}	
+.profile-img{
+	width: 120px;
+	border-radius: 50%;
+}
+.skills {
+	margin: 20px 0;
+}
+.name:hover{
+	color:purple;
+}
+.show{
+	width:80%;
+}
+.fill {
+	width: 0;
+	height: 10px;
+	transition: 1s;
+}
+.html.show {width: 90%; }
+.css.show {width: 80%; }
+.js.show {width: 70%; }
