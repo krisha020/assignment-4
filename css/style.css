@@ -39,3 +39,11 @@ header {
 .show{
 	width:80%;
 }
+.fill {
+	width: 0;
+	height: 10px;
+	transition: 1s;
+}
+.html.show {width: 90%; }
+.css.show {width: 80%; }
+.js.show {width: 70%; }
